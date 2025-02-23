@@ -14,7 +14,7 @@ import xyz.kyngs.librelogin.common.event.events.AuthenticPremiumLoginSwitchEvent
 
 import java.util.concurrent.CompletionStage;
 
-@CommandAlias("cracked|manuallogin")
+@CommandAlias("manuallogin")
 public class PremiumDisableCommand<P> extends PremiumCommand<P> {
 
     public PremiumDisableCommand(AuthenticLibreLogin<P, ?> premium) {
